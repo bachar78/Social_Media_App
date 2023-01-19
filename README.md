@@ -37,7 +37,19 @@ Social Media App
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 3. Further Improvements
+## 3. Provided API's:
+### 1. for loging in and regestration 
+    - POST: "/api/v1/login" 
+### 2. for user:
+    - POST:"/api/v1/users"
+    - GET: "/api/v1/users"
+    - GET: "/api/v1/users/username"
+    - PUT: "/api/v1/users/id"
+    - DELETE: "/api/v1/users/id"
+
+
+
+## 4. Further Improvements
 - Enhancement of README
 - Add JUnit Test 
 - Add Images to the posts and user entitis
