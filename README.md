@@ -38,14 +38,19 @@ Social Media App
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 3. Provided API's:
-### 1. for loging in and regestration 
+   ### 1. for loging in and regestration 
     - POST: "/api/v1/login" 
-### 2. for user:
+   ### 2. for user:
     - POST:"/api/v1/users"
     - GET: "/api/v1/users"
     - GET: "/api/v1/users/username"
     - PUT: "/api/v1/users/id"
     - DELETE: "/api/v1/users/id"
+   ### 3. for post:
+    - POST:"/api/v1/posts"
+    - GET: "/api/v1/posts"
+    - GET: "/api/v1/**username**/posts"
+    - DELETE: "/api/v1/posts/id"
 
 
 
