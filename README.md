@@ -49,7 +49,7 @@ Social Media App
    ### 3. for post:
     - POST:"/api/v1/posts"
     - GET: "/api/v1/posts"
-    - GET: "/api/v1/**username**/posts"
+    - GET: "/api/v1/username/posts"
     - DELETE: "/api/v1/posts/id"
 
 
