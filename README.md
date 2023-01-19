@@ -39,7 +39,7 @@ Social Media App
 
 ## 3. Provided API's:
    ### 1. for loging 
-    - POST: "/api/v1/login" for the user to be authenticated
+    - POST: "/api/v1/login" for the user authentication
    ### 2. for user:
     - POST:"/api/v1/users" For creating a user account 
     - GET: "/api/v1/users" For fetching all the users
