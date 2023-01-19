@@ -38,19 +38,19 @@ Social Media App
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 3. Provided API's:
-   ### 1. for loging in and regestration 
-    - POST: "/api/v1/login" 
+   ### 1. for loging 
+    - POST: "/api/v1/login" for the user to be authenticated
    ### 2. for user:
-    - POST:"/api/v1/users"
-    - GET: "/api/v1/users"
-    - GET: "/api/v1/users/username"
-    - PUT: "/api/v1/users/id"
-    - DELETE: "/api/v1/users/id"
+    - POST:"/api/v1/users" For creating a user account 
+    - GET: "/api/v1/users" For fetching all the users
+    - GET: "/api/v1/users/username" for fetching a specific user
+    - PUT: "/api/v1/users/id" for updating a user profile
+    - DELETE: "/api/v1/users/id" for deleting a user account
    ### 3. for post:
-    - POST:"/api/v1/posts"
-    - GET: "/api/v1/posts"
-    - GET: "/api/v1/username/posts"
-    - DELETE: "/api/v1/posts/id"
+    - POST:"/api/v1/posts" for creating a post
+    - GET: "/api/v1/posts" for fetching all the posts
+    - GET: "/api/v1/username/posts" for fetching the posts of a specific user
+    - DELETE: "/api/v1/posts/id" for deleting the user account
 
 
 
